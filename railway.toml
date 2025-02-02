@@ -1,0 +1,5 @@
+[build]
+builder = "Nixpacks"
+
+[deploy]
+startCommand = "chmod +x node_modules/.bin/tsc && chmod +x node_modules/.bin/ts-node && npm run start"
